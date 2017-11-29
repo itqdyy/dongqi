@@ -1,0 +1,465 @@
+.swiper-container{
+	width: 320px;
+	height: 504px;
+	position: relative;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.item3,.item4,.item5,.item6,.item7{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bj2a.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+}
+/*================首页==============*/
+.item1{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bj1a.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center;
+}
+.photo{
+	width: 140px;
+	height:140px;
+	border-radius: 50%;
+	position: absolute;
+	top: 6.5%;
+	left: 10.3%;
+}
+.item1-top{
+	height: 270px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+	position: relative;
+}
+.item1-bottom{
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	align-items: center;
+}
+.head-quan{
+	width: 175px;
+	height: 175px;
+	background: url(../images/quan.png)no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation:rotate 6s linear infinite;
+}
+.head-bj{
+	width: 156px;
+	height: 156px;
+	background: url(../images/head-bj.png)no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item1 .PERSONAL{
+	color: rgb(255, 255, 255);
+	font-family: 微软雅黑;
+	font-size: 0.9rem;
+}
+.text1{
+	color: rgb(255, 255, 255);
+	font-family: 微软雅黑;
+	font-size: 0.8rem;
+}
+.text2{
+	color: rgb(255, 255, 255);
+	font-family: 微软雅黑;
+	font-size: 0.8rem;
+}
+.indexbtn{
+	width: 189px;
+	height: 34px;
+	background: url(../images/btn.png)no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.indexbtn a{
+	width: 114px;
+	text-align: center;
+}
+.indexbtn img{
+	margin-top: 3px;
+}
+.arrow{
+	position: absolute;
+	left: 46.5%;
+	bottom: 1.5%;
+	z-index: 99;
+}
+.music>img{
+	position: absolute;
+	top: 2%;
+	right: 4%;
+	width: 33px;
+	height: 33px;
+	z-index: 99;
+}
+/*================子页1==============*/
+.item2{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bj1a.jpg)no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item2-top{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin:17px 0;
+}
+.item2-top>div{
+	width: 117px;
+	height: 117px;
+	background: url(../images/item2top.png)no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.title2{
+	z-index: 99;
+}
+.item2-rotate{
+	position: absolute;
+	animation:rotate 2s linear infinite;
+}
+.item2-bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 310px;
+}
+.item2-bottom>div{
+	width: 165px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item2-bottom a{
+	display: block;
+	width: 84px;
+	height: 34px;
+	background: url(../images/kuang.png)no-repeat;
+	text-align: center;
+	line-height: 34px;
+	color: white;
+}
+/*================子页2==============*/
+.item3 span{
+	color: white;
+}
+.incontitle{
+	position: absolute;
+	top: 8%;
+	left: 44%;
+}
+.personalinformation{
+	width: 106px;
+	height: 34px;
+	background:url(../images/kuang2.png)no-repeat;
+	position: absolute;
+	top: 20%;
+	left: 34%;
+}
+.personalinformation>a{
+	display: block;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+	line-height: 34px;
+	font-weight: bold;
+}
+.Subtitle{
+	position: absolute;
+	top: 27.5%;
+	left: 42%;
+}
+.item3bj{
+	position: absolute;
+	left: 5.2%;
+	bottom: 3%;
+}
+.texts{
+	height: 254px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	left: 15%;
+	bottom: 10%;
+	z-index: 99;
+}
+.texts-top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texts-top span{
+	font-size: 20px;
+	color: black;
+	position: absolute;
+	top: 2%;
+	left: 41%;
+	font-family: "宋体";
+}
+.texts p{
+	color: rgb(255, 255, 255);
+	font-family: 微软雅黑;
+	font-size: 0.85rem;
+	color:red;
+	font-weight: bold;
+}
+.texts-1{
+	width: 223px;
+	height: 28px;
+	position: relative;
+}
+.dian1{
+	position: absolute;
+	top: 37%;
+	left: 10%;	
+}
+.dian2{
+	position: absolute;
+	top: 37%;
+	right: 10%;	
+}
+.texts-1 span{
+	position: absolute;
+	top: 13%;
+	left: 21%;
+	font-family: 微软雅黑;
+	font-weight: 700;
+	color: black;
+}
+/*================子页3==============*/
+.item4-boxs{
+	width: 100%;
+	height: 267px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 12%;
+}
+.item4-box{
+	width: 234px;
+	height: 53px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.item4-box span{
+	font-family: 微软雅黑;
+	font-weight: 700;
+	color: rgb(74, 62, 255);
+	font-size: 1.6rem;
+	position: absolute;
+	top: 19%;
+	left: 3.5%;
+}
+.item4-box .bbb{
+	opacity: .5;
+	position: absolute;
+	right: 1%;
+}
+.item4-box .t1{
+	position: absolute;
+	left: 36%;
+}
+.item4-box p{
+	position: absolute;
+	right:10%;
+	color: rgb(74, 62, 255);
+	font-family: 微软雅黑;
+	font-size: 1rem;
+}
+.item4-box1>span{
+	font-size: 1.4rem;
+	position: absolute;
+	top: 25%;
+	left: 1.7%;
+}
+.item4-box2>span{
+	font-size: 1.4rem;
+	position: absolute;
+	top: 25%;
+	left: 2.7%;
+}
+.item4-box3>span{
+	position: absolute;
+	top: 19%;
+	left: 4.5%;
+}
+.item4-box1>p{
+	position: absolute;
+	right:23%;
+}
+.item4-box2>p{
+	position: absolute;
+	right:30%;
+}
+/*================子页4==============*/
+.shu{
+	position: absolute;
+	top: 35%;
+	left: 13%;
+}
+.y1{
+	position: absolute;
+	left: 76%;
+	top: 38%;
+}
+.y2{
+	position: absolute;
+	left: 3%;
+	top: 64%;
+}
+.y3{
+	position: absolute;
+	left: 26%;
+	top: 39%;
+}
+.y3a{
+	position: absolute;
+	left: 72%;
+	top: 66%;
+}
+.y4{
+	position: absolute;
+	left: 63%;
+	top: 45%;
+}
+.y5{
+	position: absolute;
+	left: 3%;
+	top: 36%;
+}
+.qiu{
+	position: absolute;
+	top: 44%;
+	left: 20%;
+}
+.item5 span{
+	font-family: "宋体";
+	color: white;
+	font-size: 18px;
+}
+.span1{
+	position: absolute;
+	left: 27%;
+	top: 41%;
+}
+.span2{
+	position: absolute;
+	left: 63.5%;
+	top: 46.5%;
+}
+.span3{
+	position: absolute;
+	left: 73%;
+	top: 68%;
+}
+.span4{
+	position: absolute;
+	left: 5%;
+	top: 67%;
+}
+.span5{
+	position: absolute;
+	left: 79.5%;
+	top: 39.5%;
+}
+.span6{
+	position: absolute;
+	left: 5.5%;
+	top: 38.6%;
+}
+.span5a{
+	font-family: "微软雅黑";
+	position: absolute;
+	top: 28.5%;
+	left: 38%;
+}
+/*================子页5==============*/
+.item6-text{
+	width: 273px;
+	line-height: 2em;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	left: 8%;
+	top: 41.5%;
+}	
+/*================子页6==============*/
+.item7 .QR{
+	width: 151px;
+	height: 151px;
+	position: absolute;
+	top: 34%;
+	left: 28%;
+}
+.item7-kuang1{
+	position: absolute;
+	top: 71%;
+	left: 17%;
+}
+.item7-kuang2{
+	position: absolute;
+	top: 81%;
+	left: 17%;
+}
+.item7-a{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	top: 64%;
+	left: 32%;
+}
+.item7-b{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	top: 71.8%;
+	left: 34%;
+}
+.item7-c{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	top: 81.4%;
+	left: 27.7%;
+}
+.Subtitle{
+	color: white;
+}
+.span7{
+	position: absolute;
+	top: 28.5%;
+	left: 37.5%;
+}
